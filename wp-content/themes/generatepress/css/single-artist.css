@@ -1,0 +1,1453 @@
+.box-content h3
+{
+    font-family: 'Poppins SemiBold';
+}
+#artist_description ul li {
+    font-family: 'Poppins';
+}
+#arts_participant_share_right
+{
+    font-family: 'Poppins';
+}
+.apropos h4
+{
+    font-family: 'Bebas Neue';
+}
+a {
+    text-decoration: none;
+}
+@media only screen and (max-width : 1920px)
+{
+    .artist_number, #artist_number {
+        font-size: 45px;
+        color: #f37162;
+        line-height: 40px;
+    }
+    .apropos_desc strong {
+        text-transform: initial;
+    }
+
+    div#page_title {
+        display: block;
+    }
+    #artist_description ul li {
+        position: relative;
+        max-width: 300px;
+        font-size: 14.71px;
+        font-weight: 400;
+        color: #575756;
+    }
+    .env-cl
+    {
+        vertical-align: middle;
+    }
+    #artist_image:before {
+        position: absolute;
+        left: -225px;
+        bottom: -106px;
+        z-index: -1;
+    }
+    #arts_participant_gallery:before {
+        position: absolute;
+        top: -470px;
+        right: 720px;
+        z-index: -1;
+    }
+    #arts_participant_share_right {
+        cursor: pointer;
+        position: relative;
+        float: right;
+        height: 100%;
+        padding: 0px 20px;
+        padding-left: 55px;
+        background-color: #f37162;
+        color: white;
+        font-size: 17px;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+    #arts_participant_share_left:before {
+        content: '';
+        position: absolute;
+        left: 100%;
+        width: 100vw;
+        height: 100%;
+        background-color: white;
+        box-shadow: 0 0 0 3px white;
+    }
+    .apropos h4
+    {
+        margin-bottom: 5px;
+        font-size: 40px;
+        color: #3c3c3b;
+    }
+
+    .box-img {
+        float: left;
+    }
+    .box-content {
+        float: left;
+        width: 50%;
+        padding-left: 4.5%;
+    }
+    .box-content h3
+    {
+        font-size: 16px;
+        text-transform: inherit !important;
+        font-weight: normal;
+        /*width: 32%;*/
+        /*letter-spacing: 0.02em;*/
+        color: #575756;
+        /* 		min-height: 45px; */
+        line-height: 1.3;
+    }
+    .box-content p
+    {
+        font-size: 15px;
+        font-family: poppins;
+        /*width: 33%;*/
+        padding-top: 10px;
+        padding-bottom: 15px;
+
+    }
+    .det-btn
+    {
+        width: 124px;
+        height: 38px;
+        background-color: #f37162;
+        color: #fff;
+        font-family: poppins;
+        font-size: 16px;
+        margin-top:10px;
+        display: block;
+    }
+
+    .section-box {
+        width: 31%;
+        float: left;
+        padding-right: 2%;
+        padding-top: 2%;
+    }
+    .section-box:first-child
+    {
+        padding-left: 0;
+    }
+
+    h4.h4-title
+    {
+        padding-top: 3%;
+    }
+
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -55px;
+        margin-right: 82px;
+        width: 430px;
+    }
+    #artist_item_image img
+    {
+        width: 100%;
+        height: 430px;
+    }
+    .box-content strong
+    {
+        color: #575756;
+        line-height: 1.3;
+    }
+}
+
+@media only screen and (min-width : 1921px)
+{
+    .artist_number, #artist_number {
+        font-size: 45px;
+        color: #f37162;
+        line-height: 40px;
+    }
+
+    div#page_title {
+        display: block;
+    }
+    #artist_description ul li {
+        position: relative;
+        max-width: 300px;
+        font-size: 14.71px;
+        font-weight: 400;
+        color: #575756;
+    }
+    .env-cl
+    {
+        vertical-align: middle;
+    }
+    #artist_image:before {
+        position: absolute;
+        left: -225px;
+        bottom: -106px;
+        z-index: -1;
+    }
+    #arts_participant_gallery:before {
+        position: absolute;
+        top: -470px;
+        right: 720px;
+        z-index: -1;
+    }
+    #arts_participant_share_right {
+        cursor: pointer;
+        position: relative;
+        float: right;
+        height: 100%;
+        padding: 0px 20px;
+        padding-left: 55px;
+        background-color: #f37162;
+        color: white;
+        font-size: 17px;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+    #arts_participant_share_left:before {
+        content: '';
+        position: absolute;
+        left: 100%;
+        width: 100vw;
+        height: 100%;
+        background-color: white;
+        box-shadow: 0 0 0 3px white;
+    }
+    .apropos h4
+    {
+        margin-bottom: 5px;
+        font-size: 48px;
+        color: #3c3c3b;
+    }
+
+    .box-img {
+        float: left;
+    }
+    .box-content {
+        float: left;
+        width: 50%;
+        padding-left: 4.5%;
+    }
+    .box-content h3
+    {
+        font-size: 21.83px;
+        letter-spacing: 0.02em;
+    }
+    .box-content p
+    {
+        font-size: 15px;
+        font-family: poppins;
+        /*width: 33%;*/
+        padding-top: 10px;
+        padding-bottom: 15px;
+
+    }
+    .det-btn
+    {
+        width: 124px;
+        height: 38px;
+        background-color: #f37162;
+        color: #fff;
+        font-family: poppins;
+        font-size: 16px;
+        margin-top:10px;
+    }
+
+    .section-box {
+        width: 31%;
+        float: left;
+        padding-right: 2%;
+        padding-top: 2%;
+    }
+    .section-box:first-child
+    {
+        padding-left: 0;
+    }
+
+    h4.h4-title
+    {
+        padding-top: 3%;
+    }
+
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -55px;
+        margin-right: 82px;
+        width: 430px;
+    }
+    #artist_item_image img
+    {
+        width: 100%;
+        height: 430px;
+    }
+    .box-content strong
+    {
+        color: #575756;
+        line-height: 1.3;
+    }
+}
+
+@media only screen and (max-width : 1671px)
+{
+    #arts_participant_gallery:before {
+        position: absolute;
+        top: -470px;
+        right: 658px;
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width : 1565px)
+{
+    #arts_participant_gallery:before {
+        position: absolute;
+        top: -470px;
+        right: 606px;
+        z-index: -1;
+    }
+}
+@media only screen and (max-width : 1366px)
+{
+    .box-content p {
+        font-size: 13px;
+        font-family: poppins;
+        /* width: 33%; */
+    }
+    #arts_participant_gallery:before {
+        position: absolute;
+        top: -470px;
+        right: 505px;
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width : 1300px)
+{
+    #arts_participant_gallery:before {
+        position: absolute;
+        top: -470px;
+        right: 472px;
+        z-index: -1;
+
+    }
+}
+
+@media only screen and (max-width : 1280px)
+{
+    .box-content {
+        float: left;
+        width: 48%;
+        padding-left: 4.5%;
+    }
+    .box-content h3 {
+        font-size: 20.83px;
+    }
+
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 600px;
+    }
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -55px;
+        margin-right: 82px;
+        width: 410px;
+    }
+
+    #workshop_description, #artist_description
+    {
+        width: 900px;
+    }
+    .box-content strong
+    {
+        font-size:14px;
+    }
+    .apropos_desc strong
+    {
+        font-size:14px;
+    }
+}
+@media only screen and (max-width : 1279px)
+{
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -55px;
+        margin-right: 82px;
+        width: 405px;
+    }
+}
+
+@media only screen and (max-width : 1274px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 600px;
+    }
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -55px;
+        margin-right: 82px;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width : 1273px)
+{
+    .box-content h3 {
+        font-size: 19.83px;
+    }
+}
+
+@media only screen and (max-width : 1270px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 600px;
+    }	
+}
+
+@media only screen and (max-width : 1269px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 600px;
+    }	
+
+}
+
+
+@media only screen and (max-width: 1259px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 550px;
+    }
+    #workshop_description, #artist_description {
+        width: 870px;
+    }
+}
+
+@media only screen and (max-width : 1251px)
+{
+    .box-content p {
+        font-size: 12px;
+        font-family: poppins;
+        /* width: 33%; */
+    }
+}
+
+@media only screen and (max-width : 1236px)
+{
+    #workshop_description, #artist_description {
+        width: 850px;
+    }
+}
+
+@media only screen and (max-width : 1229px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 550px;
+    }
+}
+
+
+@media only screen and (max-width : 1230px)
+{
+    .box-content {
+        float: left;
+        width: 45%;
+        padding-left: 4.5%;
+    }
+    .box-content h3 {
+        font-size: 18px;
+    }
+    .box-content p {
+        font-size: 11px;
+        font-family: poppins;
+        /* width: 33%; */
+    }
+}
+@media only screen and (max-width : 1219px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 550px;
+    }
+}
+
+@media only screen and (max-width : 1209px)
+{
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -55px;
+        margin-right: 82px;
+        width: 390px;
+    }
+}
+
+@media only screen and (max-width : 1204px)
+{
+    #workshop_description, #artist_description 
+    {
+        width: 860px;
+    }	
+}
+
+@media only screen and (max-width : 1203px)
+{
+    #workshop_description, #artist_description 
+    {
+        width: 850px;
+    }
+}
+@media only screen and (max-width : 1199px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 530px;
+    }
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -55px;
+        margin-right: 60px;
+        width: 390px;
+    }
+}
+
+@media only screen and (max-width : 1181px)
+{
+    .box-content h3 {
+        font-size: 16px;
+    }
+    .box-content p {
+        font-size: 14px;
+        font-family: poppins;
+        /* width: 33%; */
+    }
+}
+
+@media only screen and (max-width : 1177px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 520px;
+    }
+}
+
+@media only screen and (max-width : 1169px)
+{
+    #workshop_description, #artist_description 
+    {
+        width: 820px;
+    }
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 510px;
+    }
+
+}
+
+@media only screen and (max-width : 1162px)
+{
+    .box-content {
+        float: left;
+        width: 42%;
+        padding-left: 4.5%;
+    }
+    .box-content p {
+        font-size: 13px;
+        font-family: poppins;
+        /* width: 33%; */
+    }
+    .box-content p {
+        font-size: 12px;
+        font-family: poppins;
+        /* width: 33%; */
+    }
+    .box-content h3 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width : 1159px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width : 1149px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width : 1140px)
+{
+    #workshop_description, #artist_description 
+    {
+        width: 730px;
+    }
+}
+
+@media only screen and (max-width : 1127px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width : 1119px)
+{
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -55px;
+        margin-right: 82px;
+        width: 380px;
+    }
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 450px;
+    }
+}
+@media only screen and (max-width : 1109px)
+{
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -55px;
+        margin-right: 50px;
+        width: 380px;
+    }
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width : 1102px)
+{
+    .box-content {
+        float: left;
+        width: 40%;
+        padding-left: 4.5%;
+    }
+    .box-content h3 {
+        font-size: 14px;
+    }
+    .box-content p {
+        font-size: 12px;
+        font-family: poppins;
+        /* width: 33%; */
+    }
+}
+
+@media only screen and (max-width : 1099px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 450px;
+    }
+    .apropos_desc
+    {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width : 1095px)
+{
+    #workshop_description, #artist_description 
+    {
+        width: 720px;
+    }
+}
+
+@media only screen and (max-width : 1077px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width : 1066px)
+{
+    .box-content {
+        float: left;
+        width: 38%;
+        padding-left: 4.5%;
+    }
+    .box-content h3 {
+        font-size: 13px;
+    }
+    .box-content p {
+        font-size: 11px;
+        font-family: poppins;
+        /* width: 33%; */
+    }
+
+}
+
+@media only screen and (max-width : 1057px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 450px;
+    }
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -55px;
+        margin-right: 50px;
+        width: 370px;
+    }
+}
+
+@media only screen and (max-width : 1049px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 400px;
+    }
+}
+@media only screen and (max-width : 1040px)
+{
+    #workshop_description, #artist_description 
+    {
+        width: 680px;
+    }
+}
+
+@media only screen and (max-width : 1032px)
+{
+    .box-content {
+        float: left;
+        width: 36%;
+        padding-left: 4.5%;
+    }
+    .box-content h3 {
+        font-size: 13px;
+    }
+    .box-content p {
+        font-size: 10px;
+        font-family: poppins;
+        /* width: 33%; */
+        line-height: 1.8;
+        padding-top: 5px;
+        padding-bottom: 7px;
+    }
+}
+@media only screen and (max-width : 1027px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 400px;
+    }
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -55px;
+        margin-right: 50px;
+        width: 360px;
+    }
+    .owl-carousel {
+        display: none;
+        width: 93%;
+    }
+}
+
+
+@media only screen and (max-width : 1023px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 450px;
+    }
+}
+
+
+@media only screen and (max-width: 1320px) and (min-width: 1281px)
+{
+    .wrapper, #header, #arts_participant_gallery .wrapper, #gallery_slide .wrapper
+    {
+        padding: 0px 40px;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1024px)
+{
+    .wrapper, #header, #arts_participant_gallery .wrapper, #gallery_slide .wrapper
+    {
+        padding: 0px 40px;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 769px)
+{
+    .wrapper, #header, #arts_participant_gallery .wrapper, #gallery_slide .wrapper
+    {
+        padding: 0px 40px;
+    }
+}
+
+@media only screen and (max-width : 1000px)
+{
+    .box-content {
+        float: left;
+        width: 55%;
+        padding-left: 0;
+        clear: both;
+    }
+    .box-content h3 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width : 989px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 440px;
+    }
+}
+
+@media only screen and (max-width : 969px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 430px;
+    }
+}
+
+@media only screen and (max-width : 949px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 420px;
+    }
+}
+
+@media only screen and (max-width : 939px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width : 925px)
+{
+    #workshop_description, #artist_description 
+    {
+        width: 650px;
+    }
+}
+
+@media only screen and (max-width : 920px)
+{
+    #workshop_description, #artist_description 
+    {
+        width: 630px;
+    }
+}
+
+@media only screen and (max-width : 919px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 390px;
+    }
+}
+
+@media only screen and (max-width : 914px)
+{
+    .box-content h3 {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width : 899px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 370px;
+    }
+}
+
+@media only screen and (max-width : 889px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 370px;
+    }
+}
+
+@media only screen and (max-width : 879px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 350px;
+    }
+}
+
+
+@media only screen and (max-width : 870px)
+{
+    #workshop_description, #artist_description 
+    {
+        width: 550px;
+    }
+    #workshop_description #workshop_name, #artist_description #artist_name {
+        position: relative;
+        font-size: 60px;
+        color: #3c3c3b;
+        line-height: 66px;
+        padding-bottom: 16px;
+    }
+}
+
+
+@media only screen and (max-width : 864px)
+{
+    .box-content h3 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width : 859px)
+{
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -55px;
+        margin-right: 50px;
+        width: 340px;
+    }
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width : 851px)
+{
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -40px;
+        margin-right: 82px;
+        width: 330px;
+    }
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width : 831px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width : 819px)
+{
+    #workshop_description, #artist_description 
+    {
+        width: 520px;
+    }
+    #workshop_description #workshop_name, #artist_description #artist_name {
+        position: relative;
+        font-size: 52px;
+        color: #3c3c3b;
+        line-height: 66px;
+        padding-bottom: 16px;
+    }
+}
+
+@media only screen and (max-width : 814px)
+{
+    .box-content {
+        float: left;
+        width: 68%;
+        padding-left: 0;
+        clear: both;
+    }
+    .box-content h3 {
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (max-width : 811px)
+{
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 290px;
+    }
+}
+
+
+@media only screen and (max-width : 801px)
+{
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -40px;
+        margin-right: 82px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width : 788px)
+{
+    #arts_participant_share {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 771px)
+{
+    #arts_participant_share {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width : 768px)
+{
+    div#artist_description {
+        width: 100%;
+    }
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -40px;
+        margin-right: auto;
+        width: 430px;
+    }
+    #workshop_item_description, #artist_item_description {
+        position: relative;
+        float: left;
+        width: 90%;
+    }
+
+    .wrapper, #header, #arts_participant_gallery .wrapper, #gallery_slide .wrapper {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0px 0px;
+    }
+    div#artist_description
+    {
+        padding-left: 20px;
+    }
+
+    .apropos{
+        padding-left: 20px;
+    }
+    div#arts_participant_gallery .wrapper {
+        padding: 0px 40px;
+    }
+}
+
+@media only screen and (max-width : 767px)
+{
+    #arts_participant_share {
+        width: 100%;
+    }
+    .owl-carousel {
+        width: 89%;
+    }
+}
+
+@media only screen and (max-width : 718px)
+{
+    .box-content {
+        float: left;
+        width: 80%;
+        padding-left: 0;
+        clear: both;
+    }
+    .box-content h3 {
+        font-size: 19px;
+    }
+
+}
+
+@media only screen and (max-width : 684px)
+{
+    .box-content {
+        float: left;
+        width: 82%;
+        padding-left: 0;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width : 668px)
+{
+    .box-content {
+        float: left;
+        width: 100%;
+        padding-left: 0;
+        clear: both;
+    }
+    .box-content h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width : 643px)
+{
+    .section-box {
+        width: 28%;
+        float: left;
+        padding-right: 3.5%;
+        padding-top: 2%;
+    }
+}
+
+@media only screen and (max-width : 623px)
+{
+    .apropos h4 {
+        font-size: 46px;
+    }
+    #workshop_item_description .apropos h1, #workshop_item_description .apropos h2, #workshop_item_description .apropos h3, #workshop_item_description .apropos h4, #workshop_item_description .apropos h5, #workshop_item_description .apropos h6, #artist_item_description .apropos h1, #artist_item_description .apropos h2, #artist_item_description .apropos h3, #artist_item_description .apropos h4, #artist_item_description .apropos h5, #artist_item_description .apropos h6 {
+        margin-bottom: 5px;
+        font-size: 46px;
+        font-family: 'Bebas Neue';
+        color: #3c3c3b;
+    }
+}
+
+
+@media only screen and (max-width : 605px)
+{
+    #workshop_item_description .apropos h1, #workshop_item_description .apropos h2, #workshop_item_description .apropos h3, #workshop_item_description .apropos h4, #workshop_item_description .apropos h5, #workshop_item_description .apropos h6, #artist_item_description .apropos h1, #artist_item_description .apropos h2, #artist_item_description .apropos h3, #artist_item_description .apropos h4, #artist_item_description .apropos h5, #artist_item_description .apropos h6 {
+        font-size: 44px;
+    }
+
+    .apropos h4 {
+        font-size: 44px;
+    }
+    .section-box {
+        width: 28%;
+        float: left;
+        padding-right: 1.5%;
+        padding-top: 2%;
+    }
+}
+
+@media only screen and (max-width : 581px)
+{
+    .box-content h3 {
+        font-size: 19px;
+    }
+    #workshop_item_description .apropos h1, #workshop_item_description .apropos h2, #workshop_item_description .apropos h3, #workshop_item_description .apropos h4, #workshop_item_description .apropos h5, #workshop_item_description .apropos h6, #artist_item_description .apropos h1, #artist_item_description .apropos h2, #artist_item_description .apropos h3, #artist_item_description .apropos h4, #artist_item_description .apropos h5, #artist_item_description .apropos h6 {
+        margin-bottom: 5px;
+        font-size: 42px;
+    }
+    .apropos h4 {
+        font-size: 42px;
+    }
+}
+@media only screen and (max-width : 569px)
+{
+    .apropos h4 {
+        font-size: 42px;
+    }
+}
+
+@media only screen and (max-width : 558px)
+{
+    .apropos h4 {
+        font-size: 40px;
+    }
+    #workshop_item_description .apropos h1, #workshop_item_description .apropos h2, #workshop_item_description .apropos h3, #workshop_item_description .apropos h4, #workshop_item_description .apropos h5, #workshop_item_description .apropos h6, #artist_item_description .apropos h1, #artist_item_description .apropos h2, #artist_item_description .apropos h3, #artist_item_description .apropos h4, #artist_item_description .apropos h5, #artist_item_description .apropos h6 {
+        font-size: 40px;
+    }
+    .section-box {
+        width: 32%;
+        float: left;
+        padding-right: 12%;
+        padding-top: 2%;
+    }
+    .section-box :nth-child(3n+1)
+    {	    margin-top: 10px;
+          padding-top: 4%;
+    }
+
+}
+
+@media only screen and (max-width : 554px)
+{
+    .box-content h3 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width : 549px)
+{
+    .section-box {
+        width: 34%;
+        float: left;
+        padding-right: 6.5%;
+        padding-top: 2%;
+    }
+    .apropos h4 {
+        font-size: 44px;
+    }
+}
+
+@media only screen and (max-width : 546px)
+{
+    .apropos h4 {
+        font-size: 39px;
+    }   
+    #workshop_item_description .apropos h1, #workshop_item_description .apropos h2, #workshop_item_description .apropos h3, #workshop_item_description .apropos h4, #workshop_item_description .apropos h5, #workshop_item_description .apropos h6, #artist_item_description .apropos h1, #artist_item_description .apropos h2, #artist_item_description .apropos h3, #artist_item_description .apropos h4, #artist_item_description .apropos h5, #artist_item_description .apropos h6 {
+        font-size: 39px;
+    }
+}
+
+@media only screen and (max-width : 526px)
+{
+    .box-content h3 {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width : 524px)
+{
+    .apropos h4 {
+        font-size: 36px;
+    }
+    #workshop_item_description .apropos h1, #workshop_item_description .apropos h2, #workshop_item_description .apropos h3, #workshop_item_description .apropos h4, #workshop_item_description .apropos h5, #workshop_item_description .apropos h6, #artist_item_description .apropos h1, #artist_item_description .apropos h2, #artist_item_description .apropos h3, #artist_item_description .apropos h4, #artist_item_description .apropos h5, #artist_item_description .apropos h6 {
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width : 520px)
+{
+    .section-box {
+        width: 28%;
+        float: left;
+        padding-right: 0;
+        padding-top: 2%;
+        padding-right: 15%;
+    }
+    .section-box:nth-child(3n+1)
+    {
+        padding-top: 5%;
+    }
+}
+
+@media only screen and (max-width : 499px)
+{
+
+    .box-content h3 {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width : 490px)
+{
+    .apropos h4 {
+        font-size: 34px;
+    }
+    #workshop_item_description .apropos h1, #workshop_item_description .apropos h2, #workshop_item_description .apropos h3, #workshop_item_description .apropos h4, #workshop_item_description .apropos h5, #workshop_item_description .apropos h6, #artist_item_description .apropos h1, #artist_item_description .apropos h2, #artist_item_description .apropos h3, #artist_item_description .apropos h4, #artist_item_description .apropos h5, #artist_item_description .apropos h6 {
+        font-size: 34px;
+    }
+
+}
+
+@media only screen and (max-width : 480px)
+{
+    .apropos h4 {
+        font-size: 32px;
+    }
+    #workshop_item_description .apropos h1, #workshop_item_description .apropos h2, #workshop_item_description .apropos h3, #workshop_item_description .apropos h4, #workshop_item_description .apropos h5, #workshop_item_description .apropos h6, #artist_item_description .apropos h1, #artist_item_description .apropos h2, #artist_item_description .apropos h3, #artist_item_description .apropos h4, #artist_item_description .apropos h5, #artist_item_description .apropos h6 {
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width : 472px)
+{
+    .section-box {
+        width: 37%;
+        float: left;
+        padding-right: 0;
+        padding-top: 2%;
+        padding-right: 4%;
+    }
+    .box-content h3 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width : 450px)
+{
+    /*#artist_item_image {
+    position: relative;
+    float: none;
+    }*/
+    #artist_item_image {
+        z-index: 1;
+        margin-top: -40px;
+        margin-right: auto;
+        width: 100%;
+    }
+    #artist_image:before
+    {
+        display:none;
+    }
+}
+
+@media only screen and (max-width : 449px)
+{
+    .owl-carousel {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 424px)
+{
+    .apropos h4 {
+        font-size: 29px;
+    }
+    #workshop_item_description .apropos h1, #workshop_item_description .apropos h2, #workshop_item_description .apropos h3, #workshop_item_description .apropos h4, #workshop_item_description .apropos h5, #workshop_item_description .apropos h6, #artist_item_description .apropos h1, #artist_item_description .apropos h2, #artist_item_description .apropos h3, #artist_item_description .apropos h4, #artist_item_description .apropos h5, #artist_item_description .apropos h6 {
+        font-size: 29px;
+    }
+}
+
+
+@media only screen and (max-width : 414px)
+{
+    .box-content h3 {
+        font-size: 14px;
+    }
+    .section-box {
+        width: 37%;
+        float: left;
+        padding-right: 0;
+        padding-top: 2%;
+        padding-right: 7%;
+    }
+    .box-content h3 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width : 412px)
+{
+    .section-box {
+        width: 37%;
+        float: left;
+        padding-right: 0;
+        padding-top: 2%;
+        padding-right: 7%;
+    }
+}
+
+@media only screen and (max-width : 400px)
+{
+    .section-box {
+        width: 37%;
+        float: left;
+        padding-right: 0;
+        padding-top: 2%;
+        padding-right: 6%;
+    }
+
+
+    .apropos h4 {
+        font-size: 28px;
+    }
+    #workshop_item_description .apropos h1, #workshop_item_description .apropos h2, #workshop_item_description .apropos h3, #workshop_item_description .apropos h4, #workshop_item_description .apropos h5, #workshop_item_description .apropos h6, #artist_item_description .apropos h1, #artist_item_description .apropos h2, #artist_item_description .apropos h3, #artist_item_description .apropos h4, #artist_item_description .apropos h5, #artist_item_description .apropos h6 {
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width : 392px)
+{
+    .box-content h3 {
+        font-size: 17px;
+    }
+    .section-box {
+        width: 40%;
+        float: left;
+        padding-right: 0;
+        padding-top: 2%;
+        padding-right: 6%;
+    }
+}
+
+@media only screen and (max-width : 384px)
+{
+    .box-content h3 {
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width : 375px)
+
+{
+    .section-box {
+        width: 50%;
+        float: left;
+        padding-right: 0;
+        padding-top: 2%;
+        padding-right: 0%;
+    }
+    .box-content h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width : 330px)
+{
+    .section-box {
+        width: 50%;
+        /* float: left; */
+        padding-right: 0;
+        padding-top: 2%;
+        padding-right: 0%;
+        clear: both;
+    }
+
+    h4.apropos_title
+    {
+        font-size: 20px !important;
+    }
+    .box-content h3 {
+        font-size: 18px;
+    }
+
+}

@@ -1,0 +1,1936 @@
+@media screen and (min-width: 240px) and (max-width: 449px){
+
+    .map #logo {display:none;}
+
+    .map_selected_item {width:100%;}
+
+    .map_selected_item_image {width:91px;height:91px;}
+
+    .map_selected_item_text {padding-left: 125px;}
+
+    .map_selected_item_title {font-size:22px;}
+
+    .map_selected_item_text ul li {font-size: 12px;}
+
+    .map_selected_item_number {left:0;right:auto;}
+
+    .single-share-wrapper {width:100% !important;}
+
+    .single-share-wrapper a {width:100%;display:block;padding-left:0;line-height:16px;}
+
+    .single-share-wrapper a.next-button {margin-left:0;margin-top:10px;}
+
+    #logo{width:250px;}
+
+    .home-page-main-new-title {margin-top:53px;}
+
+    #homepage_experience_title {
+
+        float: left;
+
+        clear: left;
+
+        margin-bottom: 23px;
+
+        border-bottom: 1px solid;
+
+        font-size: 44px;
+
+        font-family: 'Bebas Neue';
+
+        color: #3c3c3b;
+
+        line-height: 42px;
+
+    }    
+
+    .apropos_desc {line-height:24px;}
+
+    #homepage_decouvrez_nos {padding-top:70px;padding-bottom:15px;}
+
+    #page_wrapper{
+
+        padding-right:0px;
+
+    }
+
+    .wrapper,
+
+    #header,
+
+    #arts_participant_gallery .wrapper,
+
+    #gallery_slide .wrapper{
+
+        width:100%;
+
+        box-sizing:border-box;
+
+        padding:0px 10px;
+
+    }
+
+    #arts_participant_gallery .wrapper{
+
+        padding:0px;
+
+    }
+
+    #arts_participant_share .wrapper{
+
+        height:auto;
+
+        line-height:52px;
+
+        padding:0px;
+
+    }
+
+    #arts_participant_share_left li{
+
+        width:100%;
+
+    }
+
+    #arts_participant_share_left li:not(:last-of-type){
+
+        box-sizing:border-box;
+
+        border-left:none;
+
+        border-bottom:1px solid #878787;
+
+    }
+
+    #footer_info .wrapper,
+
+    #footer .wrapper{
+
+        padding-left:10px;
+
+        padding-right:10px;
+
+        height:auto;
+
+    }
+
+    #homepage_bigimage:before,
+
+    body.category #page_title:after,
+
+    body.category #page_title:after,
+
+    body.category #page_title:before,
+
+    #blog_image:after,
+
+    #blog_image:before,
+
+    #artist_description:before,
+
+    #homepage_decouvrez ul:before,
+
+    #workshop_description:before,
+
+    #arts_participant_gallery:before,
+
+    #contact_text3:before,
+
+    #homepage_decouvrez_nos_image:before,
+
+    #artist_image:before,
+
+    #workshop_image:before,
+
+    #homepage_nouvelles:before,
+
+    #homepage_decouvrez_title,
+
+    #arts_participant_share_left:before,
+
+    #menu_search,
+
+    #menu_share{
+
+        display:block;
+
+    }
+
+    #menu_shape {background-color:transparent;position:absolute;z-index:99;height:100px;}
+
+    #menu-menu {width:calc(100vw - 50px) !important;}
+
+
+
+    #mobile_menu #menu-button:before {margin-top:12px;color:black;font-size: 35px;}
+
+    #homepage_bigimage{
+
+        float:left;
+
+        clear:left;
+
+        width:100%;
+
+        margin-right:0px;
+
+        margin-top:20px;
+
+    }
+
+    #homepage_bigimage ul li .homepage_bigimage_desc{
+
+        position:relative;
+
+        left:0px;
+
+        width:100%;
+
+    }
+
+    #homepage_bigimage ul li .homepage_bigimage_image{
+
+        height:260px;
+
+    }
+
+    #logo,
+
+    #homepage_decouvrez ul li:not(:first-of-type),
+
+    #homepage_nouvelles_title{
+
+        margin-left:0px;
+
+    }
+
+    #homepage_decouvrez ul,
+
+    #homepage_experience_desc,
+
+    #homepage_experience_journey{
+
+        float:none;
+
+    }
+
+    #homepage_decouvrez ul li,
+
+    #homepage_experience,
+
+    #homepage_map img,
+
+    #homepage_map_text{
+
+        width:100%;
+
+    }
+
+    #homepage_decouvrez ul li:not(:first-of-type){
+
+        margin-top:30px;
+
+    }
+
+    #homepage_decouvrez_title{
+
+        margin-top:50px;
+
+    }
+
+    #homepage_experience{
+
+        margin-top:70px;
+
+    }
+
+    #homepage_experience_journey{ 
+
+        margin-bottom: 15px;
+
+        clear:none;
+
+        margin-left:0px;
+
+        margin-right:0px;
+
+        width:100%;
+
+    }
+
+    #homepage_map{
+
+        height:auto;
+
+        padding:20px 0px;
+
+    }
+
+    #homepage_map img{
+
+        position:relative;
+
+        top:0px;
+
+        height:auto;
+
+    }
+
+    #homepage_map_text{
+
+        position:relative;
+
+        margin-top:10px;
+
+        top:0px;
+
+    }
+
+    #homepage_decouvrez_nos .wrapper{
+
+        display:block;
+
+    }
+
+    #homepage_decouvrez_nos_image,
+
+    #homepage_decouvrez_nos_text,
+
+    #homepage_parcours_text,
+
+    #homepage_nouvelles_images li,
+
+    #homepage_nouvelles_images,
+
+    #footer_subscribes .es_textbox input,
+
+    #footer_subscribes .es_textbox,
+
+    #workshop_image,
+
+    #workshop_description,
+
+    #workshop_description #workshop_name,
+
+    #workshop_description #workshop_animation,
+
+    #workshop_item_description,
+
+    #blog_image,
+
+    #artist_image,
+
+    #artist_description,
+
+    #artist_item_description,
+
+    #artist_item_image{
+
+        width:100%;
+
+    }
+
+    #homepage_decouvrez_nos_text,
+
+    #blog_image{
+
+        margin-left:0px;
+
+    }
+
+    #homepage_parcours_text,
+
+    #homepage_parcours_images,
+
+    #homepage_parcours_images li,
+
+    #homepage_nouvelles_images li{
+
+        float:none;
+
+        margin-right:0px!important;
+
+        margin-left:0px;
+
+    }
+
+    #homepage_nouvelles_title{
+
+        font-size:74px;
+
+    }
+
+    #homepage_nouvelles_images{
+
+        margin-top:0px;
+
+    }
+
+    #homepage_parcours_images li{
+
+        text-align:center;
+
+    }
+
+    #homepage_nouvelles_more{
+
+        position:relative;
+
+    }
+
+    #homepage_nouvelles_images li:not(:nth-of-type(-n+3)){
+
+        margin-top:0px;
+
+    }
+
+    #homepage_nouvelles_images li:not(:first-of-type){
+
+        margin-top:30px;
+
+    }
+
+    #workshop_description{
+
+        margin-top:0px;
+
+        padding:15px 15px;
+
+    }
+
+    #workshop_description #workshop_name{
+
+        font-size:40px;
+
+    }
+
+    #workshop_share{
+
+        float:left;
+
+    }
+
+    #workshop_item_description{
+
+        margin-left:0px;
+
+        margin-top:15px;
+
+    }
+
+    #blog_image{
+
+        margin-bottom:30px;
+
+        height:auto;
+
+    }
+
+    #blog_image #category_desc{
+
+        position:relative;
+
+        float:none;
+
+        bottom:0px;
+
+        left:0px;
+
+        -webkit-transform:translateX(0px);
+
+        -moz-transform:translateX(0px);
+
+        -ms-transform:translateX(0px);
+
+        -o-transform:translateX(0px);
+
+        transform:translateX(0px);
+
+        padding-left:20px;
+
+        padding-right:20px;
+
+    }
+
+    #artist_description{
+
+        margin-top:0px;
+
+    }
+
+    #artist_description{
+
+        padding-left:5px;
+
+        padding-right:5px;
+
+    }
+
+    #artist_number{
+
+        position:relative;
+
+    }
+
+    #artist_item_image{
+
+        margin-top:25px;
+
+        margin-right:0px;
+
+        margin-bottom: 25px;
+
+    }
+
+    #arts_participant_gallery{
+
+        margin-top:25px;
+
+        padding:50px 0px;
+
+    }
+
+    #gallery_slide ul .owl-prev,
+
+    #arts_participant_gallery ul .owl-prev{
+
+        left:0px;
+
+    }
+
+    #gallery_slide ul .owl-next,
+
+    #arts_participant_gallery ul .owl-next{
+
+        right:0px;
+
+    }
+
+    #gallery_slide ul .owl-prev:before,
+
+    #arts_participant_gallery ul .owl-prev:before,
+
+    #gallery_slide ul .owl-next:before,
+
+    #arts_participant_gallery ul .owl-next:before{
+
+        width:53px;
+
+        height:53px;
+
+    }
+
+    #arts_participant_share_right{
+
+        float:left;
+
+        width: 100%;
+
+        box-sizing: border-box;
+
+        background-color:transparent;
+
+    }
+
+    #gallery_slide ul{
+
+        margin-top:140px;
+
+    }
+
+    #footer_tel_mail,
+
+    #footer_soc{
+
+        top:0px;
+
+        -webkit-transform:translateY(0%);
+
+        -moz-transform:translateY(0%);
+
+        -ms-transform:translateY(0%);
+
+        -o-transform:translateY(0%);
+
+        transform:translateY(0%);
+
+    }
+
+    #footer_subscribes_soc{
+
+        float:left;
+
+    }
+
+    #footer_subscribes,
+
+    #footer_subscribes .es_textbox{
+
+        margin-right:0px;
+
+    }
+
+    #footer_subscribes_soc{
+
+        height:auto;
+
+    }
+
+    #footer_subscribes .es_button{
+
+        margin-top:5px;
+
+    }
+
+    #partners #partners_title{
+
+        padding-bottom:17px;
+
+        margin-left:0px;
+
+        /*width:100%;*/
+
+    }
+
+    #partners #partners_images{
+
+        float:left;
+
+        clear:left;
+
+    }
+
+    #partners #partners_images li{
+
+        position:relative;
+
+        float:left;
+
+        width:40%;
+
+        margin-top:10px;
+
+    }
+
+    #partners #partners_images li:not(:last-of-type){
+
+        margin-right:0px;
+
+    }
+
+    #partners #partners_images li:not(:nth-of-type(2n)){
+
+        margin-right:20%;
+
+    }
+
+    #footer_subscribes_soc{
+
+        right:50%;
+
+        -webkit-transform:translateX(50%);
+
+        -moz-transform:translateX(50%);
+
+        -o-transform:translateX(50%);
+
+        -ms-transform:translateX(50%);
+
+        transform:translateX(50%);
+
+    }
+
+    #bottom_buttons li{
+
+        width:100%;
+
+        font-size:29px;
+
+    }
+
+    #bottom_buttons li:not(:last-of-type){
+
+        margin-right:0px;
+
+    }
+
+    #bottom_buttons li img{
+
+        width:90px;
+
+    }
+
+    #interactive_map_search{
+
+        display:none;
+
+    }
+
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px){
+
+
+
+    .map #logo {display:none;}
+
+    #workshop_share{padding-left:15px;}
+
+    .apropos {padding-left: 15px;}
+
+    .home-page-main-new-title{margin-top:53px;}
+
+    #homepage_experience_title {
+
+        float: left;
+
+        clear: left;
+
+        margin-bottom: 23px;
+
+        border-bottom: 1px solid;
+
+        font-size: 44px;
+
+        font-family: 'Bebas Neue';
+
+        color: #3c3c3b;
+
+        line-height: 42px;
+
+    }   
+
+    .apropos_desc {line-height:24px;}
+
+    #arts_participant_gallery .wrapper{
+
+        padding:0px;
+
+    }
+
+    #arts_participant_share .wrapper{
+
+        height:auto;
+
+        line-height:52px;
+
+        padding:0px;
+
+    }
+
+    #arts_participant_share_left {float:none !important;}
+
+    #arts_participant_share_left li{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    #arts_participant_share_left li:not(:last-of-type){
+
+        box-sizing:border-box;
+
+        border-left:none;
+
+        border-bottom:1px solid #878787;
+
+    }
+
+    #homepage_decouvrez_nos {padding-top:90;padding-bottom:110px;}
+
+    #homepage_nouvelles_title{margin-left:0;font-size:70px;}
+
+    #page_wrapper{
+
+        padding-right:0px;
+
+    }
+
+    .wrapper,
+
+    #header,
+
+    #arts_participant_gallery .wrapper,
+
+    #gallery_slide .wrapper{
+
+        width:100%;
+
+        box-sizing:border-box;
+
+        padding:0px 10px;
+
+    }
+
+    #arts_participant_gallery {margin-top:25px;}
+
+    #footer_info .wrapper,
+
+    #footer .wrapper{
+
+        padding-left:10px;
+
+        padding-right:10px;
+
+        height:auto;
+
+    }
+
+    #homepage_bigimage:before,
+
+    body.category #page_title:after,
+
+    body.category #page_title:after,
+
+    body.category #page_title:before,
+
+    #blog_image:after,
+
+    #blog_image:before,
+
+    #artist_description:before,
+
+    #homepage_decouvrez ul:before,
+
+    #workshop_description:before,
+
+    #arts_participant_gallery:before,
+
+    #contact_text3:before,
+
+    #homepage_decouvrez_nos_image:before,
+
+    #artist_image:before,
+
+    #workshop_image:before,
+
+    #homepage_nouvelles:before,
+
+    #homepage_decouvrez_title,
+
+    #menu_search,
+
+    #menu_share{
+
+        display:block;
+
+    }
+
+    /*    #menu_shape {background-color:transparent;position:absolute;z-index:99;height:100px;}
+    
+        #mobile_menu #menu-button:before {margin-top:12px;color:black;}*/
+
+
+
+    #homepage_bigimage{
+
+        width:100%;
+
+        margin-right:0px;
+
+    }
+
+    #homepage_bigimage ul li .homepage_bigimage_desc{
+
+        width:100%;
+
+        position:relative;
+
+        left:0px;
+
+    }
+
+    #homepage_decouvrez ul{
+
+        float:none;
+
+    }
+
+    #homepage_decouvrez ul li{
+
+        float:none;
+
+        margin:0px auto;
+
+        margin-bottom:30px;
+
+    }
+
+    #homepage_decouvrez ul li:not(:first-of-type){
+
+        margin-left:auto;
+
+    }
+
+    #homepage_experience,
+
+    #homepage_experience_journey,
+
+    #homepage_map img,
+
+    #homepage_map_text,
+
+    #homepage_nouvelles_images,
+
+    #homepage_parcours_text,
+
+    #workshop_image,
+
+    #workshop_description,
+
+    #workshop_description #workshop_name,
+
+    #workshop_description #workshop_animation,
+
+    #workshop_item_description,
+
+    #blog_image,
+
+    #artist_description,
+
+    #artist_item_description{
+
+        width:100%;
+
+    }
+
+    #homepage_experience_journey{
+
+        margin-bottom: 15px;
+
+        float:none;
+
+        clear:none;
+
+        margin-left:0px;
+
+    }
+
+    #homepage_map{
+
+        height:auto;
+
+        padding:20px 0px;
+
+    }
+
+    #homepage_map img{
+
+        position:relative;
+
+        top:0px;
+
+        height:auto;
+
+    }
+
+    #homepage_map_text{
+
+        position:relative;
+
+        margin-top:10px;
+
+        top:0px;
+
+    }
+
+    #homepage_parcours{
+
+        text-align:center;
+
+    }
+
+    #homepage_parcours_text{
+
+        text-align:left;
+
+    }
+
+    #homepage_parcours_images{
+
+        display:inline-block;
+
+        float:none;
+
+        margin-left:0px;
+
+    }
+
+    #homepage_nouvelles_images{
+
+        margin-top:0px;
+
+    }
+
+    #homepage_nouvelles_images li{
+
+        float:none;
+
+        margin:0px auto;
+
+    }
+
+    #homepage_nouvelles_images li:not(:nth-of-type(3)){
+
+        margin-right:auto;
+
+    }
+
+    #homepage_nouvelles_images li:not(:nth-of-type(-n+3)){
+
+        margin-top:0px;
+
+    }
+
+    #homepage_nouvelles_images li:not(:first-of-type){
+
+        margin-top:20px;
+
+    }
+
+    #workshop_description{
+
+        margin-top:0px;
+
+        padding:15px 15px;
+
+    }
+
+    #workshop_description #workshop_name{
+
+        font-size:40px;
+
+    }
+
+    #workshop_share{
+
+        float:left;
+
+    }
+
+    #workshop_item_description{
+
+        margin-left:0px;
+
+        margin-top:15px;
+
+    }
+
+    #blog_image{
+
+        margin-left:0px;
+
+        margin-bottom:30px;
+
+        height:auto;
+
+    }
+
+    #blog_image #category_desc{
+
+        position:relative;
+
+        float:none;
+
+        bottom:0px;
+
+        left:0px;
+
+        -webkit-transform:translateX(0px);
+
+        -moz-transform:translateX(0px);
+
+        -ms-transform:translateX(0px);
+
+        -o-transform:translateX(0px);
+
+        transform:translateX(0px);
+
+        padding-left:20px;
+
+        padding-right:20px;
+
+    }
+
+    #artist_image{
+
+        margin:0px auto;
+
+    }
+
+    #artist_description{
+
+        float:none;
+
+        margin-top:0px;
+
+        padding-left:10px;
+
+        padding-right:10px;
+
+    }
+
+    #artist_number{
+
+        position:relative;
+
+    }
+
+    #artist_item_image{
+
+        float:none;
+
+        margin:0px auto;
+
+        width:350px;
+
+        margin-top:25px;
+
+        margin-bottom: 25px;
+
+    }
+
+    #gallery_slide ul .owl-prev,
+
+    #arts_participant_gallery ul .owl-prev{
+
+        left:0px;
+
+    }
+
+    #gallery_slide ul .owl-next,
+
+    #arts_participant_gallery ul .owl-next{
+
+        right:0px;
+
+    }
+
+    #gallery_slide ul .owl-prev:before,
+
+    #arts_participant_gallery ul .owl-prev:before,
+
+    #gallery_slide ul .owl-next:before,
+
+    #arts_participant_gallery ul .owl-next:before{
+
+        width:53px;
+
+        height:53px;
+
+    }
+
+    #footer_tel_mail,
+
+    #footer_soc{
+
+        top:0px;
+
+        -webkit-transform:translateY(0%);
+
+        -moz-transform:translateY(0%);
+
+        -ms-transform:translateY(0%);
+
+        -o-transform:translateY(0%);
+
+        transform:translateY(0%);
+
+        left:50%;
+
+        -webkit-transform:translateX(-50%);
+
+        -moz-transform:translateX(-50%);
+
+        -ms-transform:translateX(-50%);
+
+        -o-transform:translateX(-50%);
+
+        transform:translateX(-50%);
+
+    }
+
+    #gallery_slide ul{
+
+        margin-top:140px;
+
+    }
+
+    #footer_subscribes_soc{
+
+        float:left;
+
+    }
+
+    #footer_subscribes,
+
+    #footer_subscribes .es_textbox{
+
+        margin-right:0px;
+
+    }
+
+    #footer_subscribes_soc{
+
+        height:auto;
+
+    }
+
+    /*#footer_subscribes .es_button{
+
+        margin-top:5px;
+
+    }*/
+
+    #partners #partners_title{
+
+        padding-bottom:17px;
+
+        margin-left: 50%;
+
+        transform: translateX(-50%);
+
+    }
+
+    #partners #partners_images{
+
+        float:left;
+
+        clear:left;
+
+    }
+
+    #partners #partners_images li{
+
+        position:relative;
+
+        float:left;
+
+        width:40%;
+
+        margin-top:10px;
+
+    }
+
+    #partners #partners_images li:not(:last-of-type){
+
+        margin-right:0px;
+
+    }
+
+    #partners #partners_images li:not(:nth-of-type(2n)){
+
+        margin-right:20%;
+
+    }
+
+    #homepage_parcours_images {display: none;}
+
+    #bottom_buttons li{
+
+        width:48%;
+
+        font-size:29px;
+
+    }
+
+    #bottom_buttons li,
+
+    #bottom_buttons li:not(:last-of-type){
+
+        margin-bottom:5px;
+
+    }
+
+    #bottom_buttons li:not(:last-of-type){
+
+        margin-right:2%;
+
+    }
+
+    #bottom_buttons li img{
+
+        width:70px;
+
+    }
+
+    #interactive_map_search{
+
+        display:none;
+
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 990px){
+
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    #arts_participant_gallery 
+    {
+        width: 93%;
+    }
+    #arts_participant_share
+    {
+        width: 93%;
+    }
+
+    .home-page-main-new-title {margin-top:50px;}
+
+    #homepage_parcours_images {right:3%;}
+
+    #page_wrapper{
+
+        padding-right:0px;
+
+    }
+
+    .wrapper,
+
+    #header,
+
+    #arts_participant_gallery .wrapper,
+
+    #gallery_slide .wrapper{
+
+        width:100%;
+
+        box-sizing:border-box;
+
+        padding:0px 10px;
+
+    }
+
+    #footer_info .wrapper,
+
+    #footer .wrapper{
+
+        padding-left:10px;
+
+        padding-right:10px;
+
+        height:auto;
+
+    }
+
+    #homepage_bigimage:before,
+
+    body.category #page_title:after,
+
+    body.category #page_title:after,
+
+    body.category #page_title:before,
+
+    #blog_image:after,
+
+    #blog_image:before,
+
+    #artist_description:before,
+
+    #homepage_decouvrez ul:before,
+
+    #workshop_description:before,
+
+    #arts_participant_gallery:before,
+
+    #contact_text3:before,
+
+    #homepage_decouvrez_nos_image:before,
+
+    #artist_image:before,
+
+    #workshop_image:before,
+
+    #homepage_nouvelles:before,
+
+    #homepage_decouvrez_title,
+
+    #menu_search,
+
+    #menu_share{
+
+        display:block;
+
+    }
+
+    /*#menu_shape {background-color:transparent;position:absolute;z-index:99; height:100px;}*/
+
+    /*#mobile_menu #menu-button:before {margin-top:12px;color:black;}*/
+
+    #homepage_bigimage{
+
+        margin-top:50px;
+
+        float:left;
+
+        clear:left;
+
+        width:100%;
+
+    }
+
+    #homepage_decouvrez{
+
+        margin-bottom:30px;
+
+    }
+
+    #homepage_decouvrez ul{
+
+        float:none;
+
+    }
+
+    #homepage_decouvrez ul li,
+
+    #homepage_nouvelles_images li{
+
+        width:32%;
+
+    }
+
+    #homepage_decouvrez ul li:not(:first-of-type){
+
+        margin-left:2%;
+
+    }
+
+    #homepage_nouvelles_images li:not(:nth-of-type(3)){
+
+        margin-right:2%;
+
+    }
+
+    /*#homepage_decouvrez ul li .title{*/
+
+    /*    right:5px;*/
+
+    /*}*/
+
+    #homepage_experience,
+
+    #homepage_map img,
+
+    #homepage_nouvelles_images,
+
+    #workshop_item_description,
+
+    #artist_description{
+
+        width:100%;
+
+    }
+
+    #homepage_experience_journey{
+
+        margin-right:0px;
+
+        margin-bottom:10px;
+
+    }
+
+    #homepage_experience_savoir{
+
+        margin-bottom:30px;
+
+    }
+
+    #homepage_map{
+
+        height:auto;
+
+        padding:20px 0px;
+
+    }
+
+    #homepage_map img{
+
+        position:relative;
+
+        top:0px;
+
+        height:auto;
+
+    }
+
+    #homepage_map_text{
+
+        position:relative;
+
+        margin-top:10px;
+
+        top:0px;
+
+    }
+
+    #homepage_decouvrez_nos{
+
+        padding-top:70px;
+
+    }
+
+    #homepage_decouvrez_nos_text{
+
+        margin-left:-85px;
+
+    }
+
+    #homepage_parcours_text{
+
+        width:400px;
+
+    }
+
+    #homepage_nouvelles_title{
+
+        margin-left:0px;
+
+        font-size:150px;
+
+    }
+
+    #workshop_description{
+
+        margin-top:-35px;
+
+        padding-right:0px;
+
+    }
+
+    #workshop_item_description{
+
+        margin-left:0px;
+
+    }
+
+    #blog_image{
+
+        width:65%;
+
+        height:auto;
+
+    }
+
+    #artist_description{
+
+        /*margin-top:-45px;*/
+
+    }
+
+    #artist_number{
+
+        /*position:relative;*/
+
+    }
+
+    #artist_item_image{
+
+        margin-right:0px;
+
+    }
+
+    #artist_item_image{
+
+        margin-top:-65px;
+
+    }
+
+    #gallery_slide ul .owl-prev,
+
+    #arts_participant_gallery ul .owl-prev{
+
+        left:0px;
+
+    }
+
+    #gallery_slide ul .owl-next,
+
+    #arts_participant_gallery ul .owl-next{
+
+        right:0px;
+
+    }
+
+    #gallery_slide ul .owl-prev:before,
+
+    #arts_participant_gallery ul .owl-prev:before,
+
+    #gallery_slide ul .owl-next:before,
+
+    #arts_participant_gallery ul .owl-next:before{
+
+        width:53px;
+
+        height:53px;
+
+    }
+
+    #partners #partners_title{
+
+        margin-left:0px;
+
+    }
+
+    #arts_participant_share_left li,
+
+    #arts_participant_share_right{
+
+        font-size:9px;
+
+        padding:0px 15px;
+
+    }
+
+    #arts_participant_share_right,
+
+    #arts_participant_share_left li.location{
+
+        padding-left:55px;
+
+    }
+
+    #gallery_slide ul{
+
+        margin-top:140px;
+
+    }
+
+    #footer_info{
+
+        margin-top:30px;
+
+    }
+
+    #footer_tel_mail{
+
+        top:0px;
+
+        left:50%;
+
+        -webkit-transform:translateX(-50%);
+
+        -moz-transform:translateX(-50%);
+
+        -o-transform:translateX(-50%);
+
+        -ms-transform:translateX(-50%);
+
+        transform:translateX(-50%);
+
+    }
+
+    #footer_subscribes_soc{
+
+        right:50%;
+
+        -webkit-transform:translateX(50%);
+
+        -moz-transform:translateX(50%);
+
+        -o-transform:translateX(50%);
+
+        -ms-transform:translateX(50%);
+
+        transform:translateX(50%);
+
+    }
+
+    #bottom_buttons li{
+
+        width:48%;
+
+    }
+
+    #bottom_buttons li,
+
+    #bottom_buttons li:not(:last-of-type){
+
+        margin-bottom:5px;
+
+    }
+
+    #bottom_buttons li:not(:last-of-type){
+
+        margin-right:2%;
+
+    }
+
+    #interactive_map_search{
+
+        display:none;
+
+    }
+
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1270px){    
+
+    #artist_description{
+
+        /*margin-top:-45px;*/
+
+    }
+
+
+
+    #artist_number{
+
+        /*  position:relative;*/
+
+    }
+
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+
+    .home-page-main-new-title {margin-top: 50px;}
+
+    #homepage_parcours_images {right:3%;}
+
+    .wrapper,
+
+    #header,
+
+    #arts_participant_gallery .wrapper,
+
+    #gallery_slide .wrapper{
+
+        width:100%;
+
+        box-sizing:border-box;
+
+        padding:0px 10px;
+
+    }
+
+    #footer_info .wrapper,
+
+    #footer .wrapper{
+
+        padding-left:10px;
+
+        padding-right:10px;
+
+        height:59px;
+
+    }
+
+    #workshop_description{
+
+        margin-top:-35px;
+
+    }
+
+    #workshop_item_description{
+
+        width:100%;
+
+        box-sizing:border-box;
+
+        padding-right:60px;
+
+    }
+
+    #blog_image{
+
+        width:680px;
+
+        height:auto;
+
+    }
+
+    #partners #partners_title{
+
+        /* margin-left:0px;*/
+
+    }
+
+    #arts_participant_share_left li{
+
+        font-size:12px;
+
+    }
+
+    #arts_participant_share_right{
+
+        font-size:14px;
+
+    }
+
+    #footer_tel_mail li{
+
+        font-size:14px;
+
+    }
+
+    #footer_subscribes .es_textbox input{
+
+        width:160px;
+
+    }
+
+    #footer_subscribes .es_button{
+
+        padding:0px 15px;
+
+    }
+
+    #gallery_slide ul .owl-prev,
+
+    #arts_participant_gallery ul .owl-prev{
+
+        left:0px;
+
+    }
+
+    #gallery_slide ul .owl-next,
+
+    #arts_participant_gallery ul .owl-next{
+
+        right:0px;
+
+    }
+
+}
+
+@media screen and (min-width: 1500px){
+
+    #homepage_bigimage ul li .homepage_bigimage_image{
+
+        position:relative;
+
+        height:800px;
+
+        overflow:hidden;
+
+    }
+
+} 
+
+
+
+@media screen and (min-width: 1026px)  and (max-width: 1410px){
+
+    #homepage_nouvelles_title {margin-left:0;}
+
+}
+@media screen and (max-width: 1128px)
+{
+    #search {
+        width: 93%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1023px)
+{
+    #menu_search_body form
+    {
+        width:90%;	
+    }
+    #menu_search_body .form_block
+    {
+        width:100%;
+    }
+
+}
+
+@media screen and (max-width: 964px)
+{
+    #search {
+        width: 87%;
+        margin: 0;
+        margin-left: 4%;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    #search {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 579px)
+{
+    #page_title
+    {
+        margin-left: 7% !important;
+    }
+}
+
+@media screen and (max-width: 449px)
+{
+    #search {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #mobile_menu #menu-button
+    {
+        padding:0 !important;
+    }
+    div#logo-header img {
+        width: 50%;
+        padding-top: 2%;
+    }
+
+    .search-text
+    {
+        font-size: 23px;
+    }
+    #menu_share li
+    {
+        display: none;
+    }
+    #page_title
+    {
+        margin-left: 9% !important;
+    }
+
+}
+
+@media screen and (max-width: 400px)
+{
+    .search-text
+    {
+        font-size: 21px;
+    }
+
+}
+
+@media screen and (max-width: 369px)
+{
+    #search a {
+        font-size: 18px !important;
+    }
+    .search-text
+    {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 350px)
+{
+    #menu_search_body .form_block input
+    {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 319px)
+{
+    #page_title
+    {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="40px" height="26px" viewBox="-0.262 2.278 40 26"
+	 overflow="visible" enable-background="new -0.262 2.278 40 26" xml:space="preserve">
+<defs>
+</defs>
+<circle display="none" fill="#E56557" cx="19.762" cy="15.468" r="12.173"/>
+<circle display="none" fill="#313E50" cx="19.763" cy="15.468" r="12.173"/>
+<circle display="none" opacity="0.25" fill="#62929E" enable-background="new    " cx="19.762" cy="15.467" r="12.505"/>
+<circle display="none" opacity="0.25" fill="#62929E" enable-background="new    " cx="19.762" cy="15.467" r="15.467"/>
+<circle display="none" fill="#62929E" cx="19.762" cy="15.467" r="9.468"/>
+<circle fill="#F6511D" cx="12.852" cy="15.373" r="12.173"/>
+<path fill="#FFFFFF" d="M5.635,19.944h2.744L7.916,21.49c-0.126,0.416,0.112,0.861,0.544,0.989c0.414,0.127,0.861-0.113,0.988-0.541
+	l0.59-2.011h5.456l0.592,2.011c0.095,0.349,0.413,0.573,0.765,0.573c0.078,0,0.159-0.017,0.223-0.032
+	c0.415-0.128,0.669-0.573,0.543-0.989l-0.462-1.546h2.743V9.766h-5.774l-0.591-1.995c-0.097-0.351-0.414-0.574-0.767-0.574
+	c-0.351,0-0.668,0.24-0.765,0.574l-0.59,2.012H5.635V19.944z M7.231,11.361h11.07v6.988H7.231V11.361z"/>
+<polygon fill="#FFFFFF" points="10.006,17.358 12.542,17.358 17.407,17.358 13.707,12.063 11.265,15.54 10.325,14.2 8.122,17.358 
+	"/>
+<circle fill="#BDC667" cx="26.648" cy="15.373" r="12.173"/>
+<path fill="#FFFFFF" d="M19.768,19.944h2.744l-0.463,1.546c-0.126,0.416,0.111,0.861,0.544,0.989
+	c0.414,0.127,0.86-0.113,0.987-0.541l0.591-2.011h5.456l0.591,2.011c0.096,0.349,0.414,0.573,0.766,0.573
+	c0.078,0,0.158-0.017,0.222-0.032c0.415-0.128,0.67-0.573,0.544-0.989l-0.463-1.546h2.744V9.766h-5.774l-0.592-1.995
+	c-0.097-0.351-0.414-0.574-0.766-0.574c-0.351,0-0.669,0.24-0.765,0.574l-0.591,2.012h-5.775V19.944z M21.364,11.361h11.071v6.988
+	H21.364V11.361z"/>
+<polygon fill="#FFFFFF" points="24.139,17.358 26.676,17.358 31.541,17.358 27.84,12.063 25.398,15.54 24.458,14.2 22.254,17.358 
+	"/>
+<rect id="_x3C_Tranche_x3E__1_" y="2.623" fill="none" width="39" height="25"/>
+</svg>

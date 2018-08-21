@@ -1,0 +1,804 @@
+@media screen and (min-width: 320px) and (max-width: 579px){
+
+    .homepage-main-text img {width: 100% !important;}
+
+    #homepage_experience_savoir{float:left;margin-left:31px;text-align:center;}
+
+    #footer_soc {padding-top:15px;}
+
+    #footer_subscribes_soc {padding-top:15px;}
+
+    .homepage-main-text {line-height:24px;padding-left:30px;}
+
+    .apropos {line-height:24px;margin-top:25px;}
+
+    #homepage_decouvrez_nos_text {margin-bottom:25px;}
+
+    #homepage_parcours_images {
+
+        padding-top:80px;
+
+        padding-bottom:80px;
+
+        position:static;    
+
+        right: 0;
+
+        top: 0px;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    #homepage_parcours_images li {float:none; display:inline-block;}
+
+    #homepage_nouvelles{margin-bottom:0;}
+
+    #header {margin-bottom:0;}
+
+    /*contact page */
+
+    #contact_text2 {width: 100%;text-align:center;}
+
+    #contact .wrapper {width: 100%;}
+
+    #contact {padding-bottom: 0;}
+
+    #contact_text2 li {
+
+        width: 100%;
+
+        margin-top: 7px;
+
+        margin-left: 50%;
+
+        transform: translateX(-50%);
+
+        font-size: 15px;
+
+    }
+
+    #contact .wrapper {padding:0;}
+
+    #contact_text3 {margin-top:25px;line-height:24px;}
+
+    
+
+    /* Blog category page */
+
+    #category_image {
+
+        width:100%;
+
+        height: auto;
+
+        margin-left:0;
+
+    }
+
+    #category_desc {    
+
+        padding: 20px;
+
+        padding-left: 5px;
+
+        box-sizing: border-box;
+
+        width: 100%;
+
+    }
+
+    #page_title {
+
+        margin-left:5px;
+
+        margin-right:5px;
+
+        margin-left: 0;
+
+        line-height:51px;
+
+        margin-top:35px;
+
+    }
+
+    #page_title h1 {
+
+        font-size: 52px;
+
+        padding-left:16px;
+
+
+
+    }
+
+     #page_title h2 {
+
+        font-size: 52px;
+
+        padding-left:16px;
+
+    }
+
+    #category_desc_title {
+
+        font-size: 35px;
+
+        line-height: 35px;
+
+        width: 100%;
+
+    }
+
+    #category_image img {
+
+        width: 100%;
+
+        height: auto;
+
+    }
+
+    
+
+    #category_list.blog .items {width:100%;}
+
+        
+
+    /* Workshop Category*/
+
+    #category_research .form_block.technic {
+
+        width:100%;
+
+    }
+
+    .ms-parent {width:100% !important;} 
+
+    #category_research .form_block {width:100%;}
+
+    #category_research .form_block.technic .ms-choice > span {font-size: 20px;}
+
+    #category_list.workshop .items{width:100%;margin-bottom: 20px;}
+
+    
+
+    /* Arts Category */
+
+     #arts_saveurs_category #category_research .form_block.artist {width:100%;}
+
+     #arts_saveurs_category #category_list .items {margin: 0 auto; float: none;padding-bottom: 20px;}
+
+     #footer_subscribes_soc{
+
+        left:50%;
+
+        -webkit-transform:translateX(-50%);
+
+        -moz-transform:translateX(-50%);
+
+        -o-transform:translateX(-50%);
+
+        -ms-transform:translateX(-50%);
+
+        transform:translateX(-50%);
+
+    }
+
+    
+
+    #footer_subscribes_soc .es_button{
+
+        width:100%;
+
+        box-sizing: border-box;
+
+        text-align:center
+
+    }
+
+    #footer .wrapper{
+
+        text-align:center;   
+
+    }
+
+    #copyright{float:none;line-height:17px;}
+
+    #design{float:none;}
+
+    
+
+    #homepage_bigimage ul li{
+
+        padding-bottom:0;   
+
+    }
+
+    
+
+    #mobile_menu #menu-button:before{
+
+        color:#3c3c3b;   
+
+    }
+
+    #mobile_menu #menu-button{
+
+        color:#3c3c3b;   
+
+    }
+
+     #paging_count{
+
+        text-align:center 
+
+    }
+
+    #paging > ul{
+
+        text-align:center   
+
+    }
+
+    
+
+    #paging ul li{
+
+        float:none;
+
+        display:inline-block;
+
+    }
+
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px){
+
+    #homepage_experience_savoir{float:left;margin-left:31px;text-align:center;}
+
+    #footer_soc {padding-top:15px;}
+
+    #footer_subscribes_soc {padding-top:15px;}
+
+    .homepage-main-text {line-height:24px;padding-left:30px;}
+
+    .apropos {line-height:24px;margin-top:25px;}
+
+    #homepage_decouvrez_nos_text {margin-bottom:25px;}
+
+    #homepage_parcours_images {
+
+        padding-top:80px;
+
+        padding-bottom:80px;
+
+        position:static;    
+
+        right: 0;
+
+        top: 0px;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    #homepage_parcours_images li {float:none; display:inline-block;}
+
+     #homepage_nouvelles{margin-bottom:0;}
+
+    /*Contact Page */
+
+    #contact_text2 {width: 100%;text-align:center;}
+
+    #contact .wrapper {width: 100%;}
+
+    #contact {padding-bottom: 0;}
+
+    #contact_text2 li {
+
+        width: 100%;
+
+        margin-top: 7px;
+
+        margin-left: 50%;
+
+        transform: translateX(-50%);
+
+        font-size: 15px;
+
+    }
+
+    #contact .wrapper {padding:0;}
+
+    #contact_text3 {margin-top:25px;line-height:24px;}
+
+    
+
+    /* Blog category page */
+
+    #category_image {
+
+        width:100%;
+
+        height: auto;
+
+        margin-left:0;
+
+    }
+
+    #category_desc {    
+
+        padding: 20px;
+
+        padding-left: 5px;
+
+        box-sizing: border-box;
+
+        width: 100%;
+
+    }
+
+    #page_title {
+
+        /*margin-left: 5px;*/
+
+        margin-right:5px;
+
+        line-height:51px;
+
+        margin-top:35px;
+
+        
+
+    }
+
+    #page_title h1,#page_title h2 {
+
+        font-size: 52px;
+
+        padding-left:16px;
+
+
+
+    }
+
+    #category_desc_title {
+
+        font-size: 35px;
+
+        line-height: 35px;
+
+        width: 100%;
+
+    }
+
+    #category_image img {
+
+        width: 100%;
+
+        height: auto;
+
+    }
+
+    
+
+    #category_list.blog .items {width:100%;}
+
+    #blog_category #category_list .items .item_ad {width:100%; display:block;}
+
+    
+
+    /* Workshop Category*/
+
+    #category_research .form_block.technic {
+
+        width:100%;
+
+    }
+
+    .ms-parent {width:100% !important;} 
+
+    #category_research .form_block {width:100%;}
+
+    #category_research .form_block.technic .ms-choice > span {font-size: 20px;}
+
+    #category_list.workshop .items{width:100%;margin-bottom: 20px;}
+
+    #workshop_category #category_list .items .item_ad {width: 100%;display:block; font-size: 23px;}
+
+    
+
+    /* Arts Category */
+
+     #arts_saveurs_category #category_research .form_block.artist {width:100%;}
+
+      #arts_saveurs_category #category_list .items {margin: 0 auto !important; float: none;padding-bottom: 20px; width:100%;margin-right:14px !important;}
+
+      #footer_subscribes_soc{
+
+        left:50%;
+
+        -webkit-transform:translateX(-50%);
+
+        -moz-transform:translateX(-50%);
+
+        -o-transform:translateX(-50%);
+
+        -ms-transform:translateX(-50%);
+
+        transform:translateX(-50%);
+
+    }
+
+    
+
+    #footer .wrapper{
+
+        text-align:center;   
+
+    }
+
+    #copyright{float:none;line-height:17px;}
+
+    #design{float:none;}
+
+    
+
+    #homepage_bigimage ul li{
+
+        padding-bottom:0;   
+
+    }
+
+    #mobile_menu #menu-button:before{
+
+      
+
+        /*color:#3c3c3b;*/   
+
+    }
+
+    #mobile_menu #menu-button {
+
+          /*margin-right:19px;*/
+
+          }
+
+    #logo {
+        margin-left:19px;
+        /*margin-bottom:25px;*/
+    }
+
+    
+
+    #mobile_menu #menu-button{
+
+        /*color:#3c3c3b;*/ 
+
+    }
+
+    
+
+    #paging_count{
+
+        text-align:center 
+
+    }
+
+    #paging > ul{
+
+        text-align:center   
+
+    }
+
+    
+
+    #paging ul li{
+
+        float:none;
+
+        display:inline-block;
+
+    }
+
+    
+
+   #arts_participant_share_left li.location{
+
+        padding-left: 0;
+
+    }
+
+    
+
+  #arts_participant_share_left li.location:before{
+
+        position: static;
+
+         left: auto; 
+
+         top: auto; 
+
+         -webkit-transform: none;
+
+        -moz-transform: none;
+
+        -ms-transform: none;
+
+        -o-transform: none;
+
+         transform: none;
+
+         vertical-align: middle;
+
+    }
+
+    
+
+    #arts_participant_share_right{
+
+         left: 50%;
+
+         float:left;
+
+         -webkit-transform: translateX(-50%);
+
+        -moz-transform: translateX(-50%);
+
+        -ms-transform:  translateX(-50%);
+
+        -o-transform:  translateX(-50%);
+
+         transform:  translateX(-50%);
+
+    }
+
+    
+
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1025px){
+
+    #mobile_menu #menu-button {
+
+       /* margin-right:19px;*/
+
+    }
+
+    #contact_text2 li {
+
+        width: 400px; 
+
+        font-size: 15px;
+
+    }
+
+    #category_image {
+
+        width: 41%;
+
+        height: auto;
+
+    }   
+
+    #blog_category #category_image img {
+
+        width: 100%;
+
+        height: auto;
+
+    }
+
+    #category_desc_title {
+
+        font-size: 33px;
+
+        line-height: 31px;
+
+    }
+
+    #category_desc {
+
+        padding: 22px 19px 43px 41px;
+
+    }
+
+    #category_list .items {width: 48% !important;}
+
+    
+
+   /* #page_title {margin: 0;padding-left:10px;}*/
+
+    #blog_category #category_list .items .item_ad {width:100%; display:block;}
+
+        #blog_category #category_list .items:nth-of-type(odd) {
+
+        margin-right:4% !important;
+
+    }
+
+    #category_list.blog .items:nth-of-type(even){margin-right:0 !important;}
+
+    /*Workshop category */
+
+    #workshop_category #category_list .items .item_ad {width: 100%;display:block; font-size: 23px;}
+
+    #category_list.workshop .items {margin-bottom:20px;}
+
+    
+
+    /* Arts Category */
+
+    /*#category_research .form_block.artist {width:100%;}*/
+
+     #arts_saveurs_category #category_list .items {margin-right:14px !important;}
+
+     #arts_saveurs_category #category_research .form_block.artist {width: 47%;}
+
+     #arts_saveurs_category #category_research .form_block.technic {width: 47%;}
+
+     #arts_saveurs_category #category_research .form_block.technic .ms-parent {width:100% !important;}
+
+     #arts_saveurs_category #category_research .form_block:last-of-type {    
+
+        margin-right: 0px;
+
+        width: 47%;
+
+        margin-left: 50%;
+
+        transform: translateX(-50%);
+
+        margin-top: 10px;
+
+    }
+
+    
+
+    #mobile_menu #menu-button:before{
+
+        /*color:#3c3c3b;   */
+
+    }
+
+    
+
+   /* #mobile_menu #menu-button{
+
+        color:#3c3c3b; 
+
+    }*/
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1280px){
+
+    #homepage_decouvrez_title{display:none;}
+
+}
+
+
+
+
+
+@media screen and (min-width: 1026px) and (max-width: 1271px){
+
+    #contact_text2 li {
+
+        width: 400px; 
+
+        font-size: 15px;
+
+    }
+
+    #category_image {
+
+        width: 41%;
+
+        height: auto;
+
+    }   
+
+    #blog_category #category_image img {
+
+        width: 100%;
+
+        height: auto;
+
+    }
+
+    #category_desc_title {
+
+        font-size: 33px;
+
+        line-height: 31px;
+
+    }
+
+    #category_desc {
+
+        padding: 22px 19px 43px 41px;
+
+    }
+
+    #category_list .items {width: 45% !important;}
+
+    
+
+    #page_title {
+		/*margin: 0;*/
+		}
+
+    #blog_category #category_list .items .item_ad {width:100%; display:block;}
+
+    
+
+     /* Arts Category */
+
+    /*#category_research .form_block.artist {width:100%;}*/
+
+    #arts_saveurs_category #category_list .items {margin-right:14px !important;}
+
+    #arts_saveurs_category #category_research .form_block.artist {width: 47%;}
+
+    #arts_saveurs_category #category_research .form_block.technic {width: 47%;}
+
+    #arts_saveurs_category #category_research .form_block.technic .ms-parent {width:100% !important;}
+
+    #arts_saveurs_category #category_research .form_block:last-of-type {    
+
+        margin-right: 0px;
+
+        width: 47%;
+
+        margin-left: 50%;
+
+        transform: translateX(-50%);
+
+        margin-top: 10px;
+
+    }
+
+    #arts_saveurs_category #category_list .items {width:48% !important;}
+
+    #arts_saveurs_category #category_list .items:nth-of-type(odd){
+
+        margin-right: 1% !important;
+
+        margin-left: 1% !important;
+
+    }
+
+
+
+    
+
+}
+
+
+
+@media screen and (min-width: 1271px) and (max-width: 1280px){
+
+    #category_list .items{
+
+        width: 277px;   
+
+    }
+
+    
+
+    #category_research .form_block{
+
+        width: 264px;   
+
+    }
+
+}
+
+
+
