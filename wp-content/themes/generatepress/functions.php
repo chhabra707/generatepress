@@ -603,6 +603,10 @@ function process_form ($postType = array(),$taxonomy = array(), $termArr = array
             $post_['number'] = get_field('number');
             $post_['address'] = stripslashes(get_field('address'));
             $post_['featuredImage'] = get_field('artist_featured_work');
+/* 			echo $post_['featuredImage']."<br/>";
+			echo utf8_encode($post_['featuredImage'])."<br/>";
+			echo mb_convert_encoding(utf8_encode(get_field('artist_featured_work')),'HTML-ENTITIES','UTF-8')."<br/>"; */
+
             if (get_field('artist_town')) {
                 $post_['map_town'] = get_field('artist_town');
             } else {
