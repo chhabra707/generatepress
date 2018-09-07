@@ -109,6 +109,15 @@
 		</div>
     </div>
 </div>
+<?php
+/* print "<pre>";
+print_r($postsArray);
+print_r($sponsors);
+print_r($collectives);
+print "</pre>"; */
+
+ ?>
+
 <script>
 	var artists = <?php echo json_encode($postsArray); ?>;
 	/* console.log(artists); */

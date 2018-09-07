@@ -234,17 +234,20 @@ if (!function_exists('generate_scripts')) :
         // Get the minified suffix.
         $suffix = generate_get_min_suffix();
         // Enqueue our CSS.
+        wp_enqueue_style('custom-fonts', get_template_directory_uri() . '/css/custom-fonts.css', array(), GENERATE_VERSION, 'all');		
         wp_enqueue_style('generate-style-grid', get_template_directory_uri() . "/css/unsemantic-grid{$suffix}.css", false, GENERATE_VERSION, 'all');
         wp_enqueue_style('multiple-selectcss', get_template_directory_uri() . '/css/multiple-select.css', false, GENERATE_VERSION, 'all');
         wp_enqueue_style('multiselect-css', get_template_directory_uri() . '/css/multiselect.css', array('generate-style-grid'), GENERATE_VERSION, 'all');
         wp_enqueue_style('owlcarouselcss', get_template_directory_uri() . '/css/owl.carousel.css', array('generate-style-grid'), GENERATE_VERSION, 'all');
         wp_enqueue_style('cssmenucss', get_template_directory_uri() . '/css/cssmenu.css', array('generate-style-grid'), GENERATE_VERSION, 'all');
-        if (is_front_page()) {
+
+        if (is_front_page() OR is_page_template('template-map-page.php')) {
              wp_enqueue_style('home-style', get_template_directory_uri() . '/style-home.css', array('generate-style-grid'), GENERATE_VERSION, 'all');        
+			 wp_enqueue_style('generate-responsive-style', get_template_directory_uri() . '/css/responsive.css', array('generate-style-grid'), GENERATE_VERSION, 'all');
         } else {
             wp_enqueue_style('generate-style', get_template_directory_uri() . '/style.css', array('generate-style-grid'), GENERATE_VERSION, 'all');
         }
-        wp_enqueue_style('generate-responsive-style', get_template_directory_uri() . '/css/responsive.css', array('generate-style-grid'), GENERATE_VERSION, 'all');
+        
         wp_enqueue_style('generate-d-style', get_template_directory_uri() . '/css/dresponsived.css', array('generate-style-grid'), GENERATE_VERSION, 'all');
         
 		     wp_enqueue_style('single-artist', get_template_directory_uri() . '/css/single-artist.css', array('generate-style-grid'), GENERATE_VERSION, 'all');
@@ -256,7 +259,7 @@ if (!function_exists('generate_scripts')) :
         if (is_page_template('template-map-page.php')) {
 
             wp_enqueue_style('map-style', get_template_directory_uri() . '/css/map-style.css', array('generate-style-grid'), GENERATE_VERSION, 'all');
-            wp_enqueue_style('map-footer', get_template_directory_uri() . '/css/footer-style.css', array('generate-style-grid'), GENERATE_VERSION, 'all');
+            //wp_enqueue_style('map-footer', get_template_directory_uri() . '/css/footer-style.css', array('generate-style-grid'), GENERATE_VERSION, 'all');
         }
 
 		
@@ -300,8 +303,8 @@ if (!function_exists('generate_scripts')) :
           if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
           wp_enqueue_script( 'comment-reply' );
           } */
-        wp_enqueue_script( 'imjquery', get_template_directory_uri() . "/js/jquery.min.js", array(), GENERATE_VERSION, true );
-        wp_enqueue_script('multiple-select', get_template_directory_uri() . "/js/multiple-select.js", array('imjquery'), GENERATE_VERSION, true);
+        //wp_enqueue_script( 'imjquery', get_template_directory_uri() . "/js/jquery.min.js", array(), GENERATE_VERSION, true );
+        wp_enqueue_script('multiple-select', get_template_directory_uri() . "/js/multiple-select.js", array('jquery'), GENERATE_VERSION, true);
         //wp_enqueue_script('multiselect', get_template_directory_uri() . "/js/multiselect.min.js", array('jquery'), GENERATE_VERSION, true);
         wp_enqueue_script('owlcarousel', get_template_directory_uri() . "/js/owl.carousel.js", array('jquery'), GENERATE_VERSION, true);
         wp_enqueue_script('cssmenujs', get_template_directory_uri() . "/js/cssmenu.js", array('jquery'), GENERATE_VERSION, true);
@@ -310,7 +313,7 @@ if (!function_exists('generate_scripts')) :
 		
         if ( is_page_template( 'template-map-page.php' ) ) {
 			wp_enqueue_script('init_new', get_template_directory_uri() . "/js/init_new.js", array('jquery'), GENERATE_VERSION, true);
-			wp_enqueue_script('map-filter',get_stylesheet_directory_uri().'/js/map-filter.js',array('jquery'),'0.9', true);
+			//wp_enqueue_script('map-filter',get_stylesheet_directory_uri().'/js/map-filter.js',array('jquery'),'0.9', true);
 		}else{
 			wp_enqueue_script('init', get_template_directory_uri() . "/js/init.js", array('jquery'), GENERATE_VERSION, true);
         }
@@ -574,9 +577,8 @@ function process_form ($postType = array(),$taxonomy = array(), $termArr = array
 	** return by "post_ids" Or All artists 
 	*/	
 	function get_artists($post_ids){
-		
-		
 		$postsArray = array();
+		$index = 1;
 		global $post;
 		
 		$args = array(
@@ -626,7 +628,8 @@ function process_form ($postType = array(),$taxonomy = array(), $termArr = array
             $post_['lat'] = $location['lat'];
             $post_['lng'] = $location['lng'];
             wp_reset_postdata();
-            array_push($postsArray, $post_);				
+            $postsArray[$index] = $post_;
+			$index++;
 		endforeach; // end while
 	endif; // endif	
 	
@@ -638,7 +641,7 @@ function process_form ($postType = array(),$taxonomy = array(), $termArr = array
 	*/
 	function get_sponsors(){
 		$sponsors = array();
-		$index = 0;
+		$index = 1;
 		$posts = get_posts(array(
 			'post_type' => 'sponsor',
 			'numberposts' => -1,
@@ -650,7 +653,7 @@ function process_form ($postType = array(),$taxonomy = array(), $termArr = array
 		
 				
 		foreach ($posts as $post) {
-			$index++;
+			
 			setup_postdata($post);
 			$sponsors[$index]['name'] = get_the_title($post,$post->ID);
 			$sponsors[$index]['logo'] = get_field('sp_logo',$post->ID);
@@ -673,6 +676,7 @@ function process_form ($postType = array(),$taxonomy = array(), $termArr = array
 				$sponsors[$index]['direction'] = '';
 			}
 			wp_reset_postdata();
+			$index++;
 		}	  
 		return $sponsors;
 	}
@@ -682,11 +686,11 @@ function process_form ($postType = array(),$taxonomy = array(), $termArr = array
 	*/	
 	function get_collectives(){	
 		$collectives = array();
-		$index = 0;
+		$index = 1;
 		$posts = get_posts(array('post_type' => 'collective','numberposts' => -1,'order' => 'ASC','orderby' => 'title'));
 
 		foreach ($posts as $post) {
-			$index++;
+			
 			setup_postdata($post);
 			$collectives[$index]['name'] = ''; //get_the_title($post);
 			$collectives[$index]['col_external_link'] = get_field('col_external_website_link',$post->ID);
@@ -709,6 +713,7 @@ function process_form ($postType = array(),$taxonomy = array(), $termArr = array
 				$collectives[$index]['direction'] = '';
 			}
 			wp_reset_postdata();
+			$index++;
 		}
 		return $collectives;
 	}

@@ -514,12 +514,14 @@ function map_init(obj){
 	}	
 		
     function setMarkers(map){
-        var markers = obj['markers_arr'];
+        var markers = multiDimensionalUnique(obj['markers_arr']);
+		//console.log("markers");
+		//console.log(markers);
 		var mcOptions = {gridSize: 48, maxZoom: 17,cssClass:'custom-pin', styles: [{	height: 60,textSize:14,	url: "http://www.routeartssaveursrichelieu.com/wp-content/themes/generatepress/pin/m1.png", width: 60		},		{		height: 60,textSize:14,	url: "http://www.routeartssaveursrichelieu.com/wp-content/themes/generatepress/pin/m2.png", width: 60		},		{		height: 60,textSize:14,	url: "http://www.routeartssaveursrichelieu.com/wp-content/themes/generatepress/pin/m3.png", width: 60		},		{		height: 60,textSize:14,	url: "http://www.routeartssaveursrichelieu.com/wp-content/themes/generatepress/pin/m4.png", width: 60		},		{		height: 60,textSize:14,	url: "http://www.routeartssaveursrichelieu.com/wp-content/themes/generatepress/pin/m5.png", width: 60		}]};				
 		var markerarray = [];
         var marker = [];
         var infowindow = [];
-		console.log(markers);
+		//console.log(markers);
         for (var i = 0; i < markers.length; i++){
             var mark = markers[i];
             var marker_img = 'http://www.routeartssaveursrichelieu.com/wp-content/themes/generatepress/images/marker.png';
@@ -552,7 +554,8 @@ function map_init(obj){
 			
             var content = mark['content'];
             infowindow[i] = new google.maps.InfoWindow({
-                content: content
+                content: content,
+				/* boxStyle:{opacity:0.9,background-color:transparent !important} */
             });
         }
 
@@ -585,11 +588,12 @@ function map_init(obj){
     }
 }
 function interactive_map_init(arr,div,type){
+	console.log(arr);
 	if(type === false){
 			for(i in arr){		
-				if(i != "unique_count"){
-					console.log(arr);
-					console.log(i);
+				//if(i != "unique_count"){
+					//console.log(arr);
+					//console.log(i);
 					$('#interactive_map_cat .select_items.'+div+' > ul > li:last-of-type > ul > li:last-of-type > ul').append(
 						'<li>'
 						+'<div data-url="'+arr[i]['url']+'" data-map_town="'+arr[i]['map_town']+'" data-number="'+arr[i]['number']+'" data-town="'+arr[i]['town']+'" data-phone_second="'+arr[i]['phone_second']+'" data-email_second="'+arr[i]['email_second']+'" data-url="'+arr[i]['page']+'" data-marker="'+arr[i]['mapPin']+'" data-email="'+arr[i]['email']+'" data-address="'+arr[i]['address']+'" data-phone="'+arr[i]['phone']+'" data-image="'+arr[i]['featuredImage']+'" data-lng="'+arr[i]['lng']+'" data-lat="'+arr[i]['lat']+'">'+arr[i]['name']+'</div>'
@@ -638,7 +642,7 @@ function interactive_map_init(arr,div,type){
 						'title':arr[i]['name'],
 						'marker':arr[i]['mapPin']
 					});
-				}
+				//}
 				}
 				//$('#interactive_map_cat .select_items.'+div+' > ul > li:last-of-type > ul > li:last-of-type').append('</ul>');
 			//}
@@ -660,24 +664,25 @@ function interactive_map_init(arr,div,type){
 				default_item_content += '<div class="map_selected_main">COMMANDITAIRE</div>';
 				default_item_content += '<h3 class="map_selected_item_title">'+arr[i]['name']+'</h3>';
 				default_item_content += '<ul>';
-				if(arr[i]['address'].length){
-					var address2 = '';
-					if(arr[i]['second_address'] != ''){
+				//console.log(arr[i]);
+				//if(arr[i]['second_address']){
+				var address2 = '';
+				if(arr[i]['second_address'] != ''){
 						address2 = '<br>'+arr[i]['second_address'];
-					}
-					default_item_content += '<li>'+arr[i]['address']+address2+'</li>';
 				}
-				if(arr[i]['phone'].length){
+				default_item_content += '<li>'+arr[i]['address']+address2+'</li>';
+				//}
+				if(arr[i]['second_phone']){
 					var phone2 = '';
 					if(arr[i]['second_phone'] != ''){
 						phone2 = '<br>'+arr[i]['second_phone'];
 					}
 					default_item_content += '<li>'+arr[i]['phone']+phone2+'</li>';
 				}
-				if(arr[i]['website'].length){
+				if(arr[i]['website']){
 					default_item_content += '<li><a target="_blank" href="'+arr[i]['website']+'">'+arr[i]['website']+'</a></li>';
 				}
-				if(arr[i]['direction'].length){
+				if(arr[i]['direction']){
 					default_item_content += '<li><a target="_blank" href="'+arr[i]['direction']+'">Voir l’itinéraire</a></li>';
 				}
 				default_item_content += '</ul>';
@@ -697,19 +702,19 @@ function interactive_map_init(arr,div,type){
 				default_item_content += '<div class="map_selected_main">EXPOSITION COLLECTIVE</div>';
 				//default_item_content += '<h3 class="map_selected_item_title">'+arr[i]['name']+'</h3>';
 				default_item_content += '<ul>';
-				if(arr[i]['place'].length){
+				if(arr[i]['place']){
 					default_item_content += '<li class="place">'+arr[i]['place']+'</li>';
 				}
-				if(arr[i]['address'].length){
+				if(arr[i]['address']){
 					default_item_content += '<li>'+arr[i]['address']+'</li>';
 				}
-				if(arr[i]['dates'].length){
+				if(arr[i]['dates'] != undefined){
 					default_item_content += '<li class="dates">'+arr[i]['dates']+'</li>';
 				}
-				if(arr[i]['dayhours'].length){
+				if(arr[i]['dayhours']!= undefined){
 					default_item_content += '<li>'+arr[i]['dayhours']+'</li>';
 				}
-				if(arr[i]['direction'].length){
+				if(arr[i]['direction']!= undefined){
 					default_item_content += '<li><a target="_blank" href="'+arr[i]['direction']+'">Voir l’itinéraire</a></li>';
 				}
 				default_item_content += '</ul>';
@@ -744,3 +749,69 @@ Array.prototype.unique_count = function(){
 	}
 	return n;
 }
+
+$(document).ready(function (){
+	
+	//map filter
+	$('.category').multipleSelect({
+		placeholder: "Catégories",
+		minimumCountSelected:1,
+		countSelected:'# of % selected',
+		hideOptgroupCheckboxes:true	
+	});
+	$('.name').multipleSelect({
+		placeholder: "Nom des participants",
+		minimumCountSelected:1,
+		countSelected:'# of % selected',
+		hideOptgroupCheckboxes:true	
+	});
+	$('.city').multipleSelect({
+		placeholder: "Municipalités",
+		minimumCountSelected:1,
+		countSelected:'# of % selected',
+		hideOptgroupCheckboxes:true	
+	});
+/*	
+    $(".filters-submit").click(function(){
+        var categoriesArr = [];
+		var categories = '';
+        $.each($(".category option:selected"), function(){            
+            categoriesArr.push($(this).val());
+        });
+		categories = categoriesArr.join(",");
+		
+		var participantsArr = [];
+		var participants = '';
+        $.each($(".name option:selected"), function(){            
+            participantsArr.push($(this).val());
+        });
+		participants = participantsArr.join(",");
+		
+		var citiesArr = [];
+		var cities = '';
+        $.each($(".city option:selected"), function(){            
+            citiesArr.push($(this).val());
+        });
+		cities = citiesArr.join(",");
+		
+        //alert("Categories - " + categories +" participants - " + participantsArr +" cities - " + citiesArr); 
+		//ajax call 
+		$.ajax({
+			type: "post",
+			//dataType: "json",
+			url: do_filter.ajax_url,
+			data: {
+                action: 'map_filter',
+                participants: participants,
+                categories: categories,
+                cities: cities
+            },
+			success: function(msg){
+				console.log(msg);
+				//alert(msg);
+			}
+		});
+		return false;
+	});*/
+
+})

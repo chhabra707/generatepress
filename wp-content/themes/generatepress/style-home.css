@@ -8,67 +8,6 @@ body .grid-container {
 #category_list .item_ad {
 }
 .ms-choice {line-height:normal !important;}
-@font-face {
-    font-family:'themify';
-    src:url(fonts/themify.ttf);
-}
-@font-face {
-    font-family:'Bebas Neue';
-    src:url(fonts/bebasneue/bebasneue.ttf);
-}
-@font-face {
-    font-family:'Bebas Neue Regular';
-    src:url(fonts/bebasneue/bebasneue_regular.ttf);
-}
-@font-face {
-    font-family:'Bebas Neue Bold';
-    src:url(fonts/bebasneue/bebasneue_bold.ttf);
-}
-@font-face {
-    font-family:'Bebas Neue Book';
-    src:url(fonts/bebasneue/bebasneue_book.ttf);
-}
-@font-face {
-    font-family:'Bebas Neue Light';
-    src:url(fonts/bebasneue/bebasneue_light.ttf);
-}
-@font-face {
-    font-family:'Montserrat Light';
-    src:url(fonts/montserrat/montserrat_light.ttf);
-}
-@font-face {
-    font-family:'Poppins Light';
-    font-weight:100;
-    src:url(fonts/poppins/poppins_light.ttf);
-}
-@font-face {
-    font-family:'Poppins Medium';
-    font-weight:300;
-    src:url(fonts/poppins/poppins_medium.ttf);
-}
-@font-face {
-    font-family:'Poppins';
-    font-weight:400;
-    src:url(fonts/poppins/poppins_regular.ttf);
-}
-@font-face {
-    font-family:'Poppins SemiBold';
-    font-weight:600;
-    src:url(fonts/poppins/poppins_semibold.ttf);
-}
-@font-face {
-    font-family:'Poppins Bold';
-    font-weight:700;
-    src:url(fonts/poppins/poppins_bold.ttf);
-}
-@font-face {
-    font-family:'Oswald';
-    src:url(fonts/oswald/oswald_regular.ttf);
-}
-@font-face {
-    font-family:'Oswald Light';
-    src:url(fonts/oswald/oswald_light.ttf);
-}
 *{
     margin:0px;
     padding:0px;
@@ -2999,30 +2938,7 @@ body,html{
         width: 100%;
         display: block;
     }*/
-    .gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div
-    {
-        /* we have to use !important because we are overwritng inline styles */
-        background-color: transparent !important;
-        box-shadow: none !important;
-        width: auto !important;
-        height: auto !important; 
-    }
-    .gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div > div > div
-    {
-        /*background-color: #003366 !important; */
-        display:none;
-    }
-    .gm-style > div:first-child > div + div > div:last-child > div > div:last-child
-    {
-        display: none;
-        margin-right: 5px;
-        margin-top: 5px;
-    }
-    /* image icon inside close button */
-    .gm-style > div:first-child > div + div > div:last-child > div > div:last-child > img
-    {
-        display: none; 
-    }
+
     .single-share-wrapper li.next-button {
         margin-left: 9px;}
     #blog_share a {text-decoration:none !important;}
@@ -6203,30 +6119,6 @@ body,html{
         width: 100%;
         display: block;
     }*/
-    .gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div
-    {
-        /* we have to use !important because we are overwritng inline styles */
-        background-color: transparent !important;
-        box-shadow: none !important;
-        width: auto !important;
-        height: auto !important; 
-    }
-    .gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div > div > div
-    {
-        /*background-color: #003366 !important; */
-        display:none;
-    }
-    .gm-style > div:first-child > div + div > div:last-child > div > div:last-child
-    {
-        display: none;
-        margin-right: 5px;
-        margin-top: 5px;
-    }
-    /* image icon inside close button */
-    .gm-style > div:first-child > div + div > div:last-child > div > div:last-child > img
-    {
-        display: none; 
-    }
     .single-share-wrapper li.next-button {
         margin-left: 9px;}
     #blog_share a {text-decoration:none !important;}
@@ -6598,7 +6490,7 @@ body,html{
         width: 100%;
         display: block;
     }*/
-    .gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div
+    .gm-style-iw > div:first-child > div + div > div:last-child > div > div:first-child > div
     {
         /* we have to use !important because we are overwritng inline styles */
         background-color: transparent !important;
@@ -6613,13 +6505,13 @@ body,html{
     }
     .gm-style > div:first-child > div + div > div:last-child > div > div:last-child
     {
-        display: none;
+        /* display: none; */
         margin-right: 5px;
         margin-top: 5px;
     }
     /* image icon inside close button */
     .gm-style > div:first-child > div + div > div:last-child > div > div:last-child > img
-    {
+	{
         display: none; 
     }
     .single-share-wrapper li.next-button {
